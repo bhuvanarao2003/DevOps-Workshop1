@@ -6,7 +6,6 @@ all:
     webserver:
       hosts:
         foo.example.com:
-        canara.engineering.com:
           ansible_coonnection: local
     dbserver:
       hosts:
