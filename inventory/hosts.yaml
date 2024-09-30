@@ -5,8 +5,10 @@ all:
   children:
     webserver:
       hosts:
+        foo.example.com:
+          ansible_coonnection: local
         canara.engineering.com:
-          ansible_coonnection:local
+          ansible_coonnection: local
     dbserver:
       hosts:
         bar.example.com:
