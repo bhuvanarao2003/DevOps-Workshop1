@@ -5,8 +5,6 @@ all:
   children:
     webserver:
       hosts:
-        foo.example.com:
-          ansible_connection: local
         canara.engineering.com:
           ansible_coonnection:local
     dbserver:
