@@ -7,6 +7,8 @@ all:
       hosts:
         foo.example.com:
           ansible_connection: local
+        canara.engineering.com:
+          ansible_coonnection:local
     dbserver:
       hosts:
         bar.example.com:
